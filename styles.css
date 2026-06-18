@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: black;
+}
+
+.top {
+    background-color: black;
+    display: flex;
+    padding-left: 25px;
+    color: white;
+    width: 100%;
+    border-bottom: 2px solid #1d1c1c;
+    height: 50px;
+
+}
+
+.lupa {
+    overflow: hidden;
+    background-color: #E8C423;
+    width: 70px;
+    border: none;
+}
+
+.atendimento {
+    display: flex;
+    align-items: center;
+    width: 27vw;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    width: 55vw;
+}
+
+.bem_vindo {
+    color: #E8C423;
+    margin-right: 5px;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.qualidade {
+    margin-left: 5px;
+    align-items: center;
+}
+
+.whats_logo {
+    width: 50px;
+}
+
+.redes_sociais {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.logo_insta {
+    width: 40px;
+}
+
+.logo_face {
+    width: 25px;
+}
+
+.logo {
+    display: flex;
+    width: 100vw;
+    height: 70px;
+    color: white;
+    align-items: center;
+    border-bottom: 2px solid #1d1c1c;
+}
+
+.tech_logo {
+    margin: -35px 200px auto 0px
+}
+
+.caixa_pesquisa {
+    display: flex;
+    box-shadow: 0px 0px 8px 0px #eec200;
+    height: 40px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 140px;
+    border: none;
+}
+
+.quantidade {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    margin-top: -20px;
+    margin-left: -15px;
+    font-size: 10px;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+}
+
+.buscador {
+    width: 450px;
+    height: 40px;
+    outline: none;
+    font-size: 25px;
+    text-align: center;
+    border: none;
+    place-content: center;
+}
+
+::placeholder {
+        opacity: 0.3;
+    }
+
+.usuario-icone {
+    margin-top: 1px;
+}
+
+.logins-menus {
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin-top: -5px;
+    margin-right: 40px;
+}
+
+.carrinho {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    width: 100px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    height: 35px;
+    margin-top: 10px;
+    border-bottom: 2px solid #1d1c1c;
+}
+
+.sub-menus {
+    height: 25px;
+    padding: 0px 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.box_cont {
+    display: flex;
+}
+
+.conteudo {
+    background-image: url(img/capa.png);
+    background-size: 100% 100%;
+    height: 100%;
+    display: flex;
+}
+
+.counteudo-1 {
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    width: 200px;
+    color: white;
+    font-family: 'Bebas Neue';
+    font-size: 50px;
+    font-style: italic;
+    line-height: 45px;
+    margin-bottom: 5px;
+    letter-spacing: 3px;
+}
+
+.o_melhor {
+    color: #F8BB1D;
+}
+
+.titulo-2 {
+    width: 350px;
+    color: white;
+    font-family: 'arial';
+    margin-bottom: 20px;
+}
+
+.titulo-1 {
+    margin-left: 45px;
+}
+
+.selos {
+    display: flex;
+    width: 605px;
+    margin: 25px auto 0px 45px;
+    gap: 30px;
+}
+
+.orcamento {
+    width: 150px;
+    height: 31px;
+    margin-right: 20px;
+    background-color: #F8BB1D;
+    border: none;
+    box-shadow: 0px 0px 5px 0px #000000;
+    border-radius: 5px;
+}
+
+.servicos {
+    width: 150px;
+    height: 31px;
+    background-color: #000000;
+    color: white;
+    border-color: #ffffff;
+    border-width: 1px;
+    box-shadow: 0px 0px 5px 0px #000000;
+    border-radius: 5px;
+}
+
+.prod_qualidade {
+    display: flex;
+    align-items: center;
+    width: 180px;
+    color: white;
+}
+
+.garantia {
+    display: flex;
+    align-items: center;
+    width: 185px;
+    color: white;
+}
+
+.entrega {
+    display: flex;
+    align-items: center;
+    width: 140px;
+    color: white;
+}
+
+.frete_img {
+    background-size: 30px 30px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 40px;
+    border: #F8BB1D solid 1px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.garantia_img {
+    background-size: 30px 30px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 40px;
+    border: #F8BB1D solid 1px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.entrega_img {
+    background-size: 30px 30px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 40px;
+    border: #F8BB1D solid 1px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
