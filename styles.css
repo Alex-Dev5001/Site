@@ -6,6 +6,7 @@
 
 .main {
     background-color: black;
+    height: 100vh;
 }
 
 .fixed_box {
@@ -31,10 +32,20 @@
     cursor: pointer;
 }
 
-.atendimento {
+.email {
+    margin-right: 12vw;
     display: flex;
     align-items: center;
-    width: 27vw;
+}
+
+.whats_logo {
+    background-color: hsl(0, 0%, 90%);
+    position:fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 70px;
+    cursor: pointer;
+    border-radius: 40px;
 }
 
 .apresentacao {
@@ -55,25 +66,7 @@
     align-items: center;
 }
 
-.phone_number {
-    font-size: 12px;
-    margin-top: -10px;
-    display:none;
-}
-
-.email_adress {
-    margin-top: -2px;
-    display:none;
-}
-
-.whats_logo {
-    margin-top: 4px;
-    width: 50px;
-    cursor: pointer;
-}
-
-.e-mail {
-    margin-top: 4px;
+.e-mail_img {
     width: 35px;
     cursor: pointer;
 }
@@ -171,8 +164,6 @@
     margin-right: 40px;
 }
 
-
-
 .carrinho {
     display: flex;
     align-items: center;
@@ -209,26 +200,25 @@
 .conteudo {
     background-image: url(img/capa.png);
     background-size: 100% 100%;
-    height: 100%;
+    height: 73%;
     display: flex;
     border-bottom: 2px solid #1d1c1c;
 }
 
 .counteudo-1 {
-    height: 360px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 h1 {
-    width: 200px;
+    width: 240px;
     color: white;
     font-family: 'Bebas Neue';
-    font-size: 50px;
+    font-size: 60px;
     font-style: italic;
-    line-height: 45px;
-    margin-bottom: 5px;
+    line-height: 55px;
+    margin-bottom: 10px;
     letter-spacing: 3px;
 }
 
@@ -240,7 +230,7 @@ h1 {
     width: 350px;
     color: white;
     font-family: 'arial';
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .titulo-1 {
@@ -250,7 +240,7 @@ h1 {
 .selos {
     display: flex;
     width: 605px;
-    margin: 25px auto 0px 45px;
+    margin: 60px auto 0px 45px;
     gap: 30px;
 }
 
@@ -337,8 +327,8 @@ h1 {
     margin-right: 10px;
 }
 
-.e-mail:hover,
 .whats_logo:hover,
+.e-mail:hover,
 .lupa:hover,
 .logo_insta:hover,
 .logo_face:hover,
@@ -352,14 +342,8 @@ h1 {
     transform: scale(1.1);
 }
 
-.hover_whats:hover .phone_number,
-.hover_email:hover .email_adress {
-    display: block;
-    position:fixed;
-}
-
-.e-mail:active,
 .whats_logo:active,
+.e-mail:active,
 .lupa:active,
 .logo_insta:active,
 .logo_face:active,
@@ -378,14 +362,18 @@ h1 {
     opacity: 0.5;
 }
 
-.rodape {
+.carousel {
     display: flex;
     width: 100%;
     height: 250px;
     padding: 10px 10px;
     gap: 1%;
-    background-color: #cacaca;
+    background-color: #141414;
     justify-content: center;
+}
+
+.emphasis {
+    color:#ffffff;
 }
 
 .highlights_menu {
@@ -410,13 +398,17 @@ h1 {
 .left_img {
     background-color: #ffffff;
     width: 20vw;
-    border-radius: 5px;
+    height: 221px;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .right_img {
     background-color: #ffffff;
     width: 20vw;
-    border-radius: 5px;
+    border-radius: 10px;
+    height: 221px;
+    overflow: hidden;
 }
 
 .center_menu {
@@ -445,4 +437,14 @@ h1 {
     text-align: center;
     cursor: pointer;
     align-content: center;
+}
+
+.assistance {
+    width: 100%;
+    height: 100%;
+}
+
+.acessories {
+    width: 100%;
+    height: 100%;
 }
