@@ -20,83 +20,91 @@
   </head>
   <body>
     <div class="main">
-      <div class="top">
-        <div class="apresentacao">
-          <p class="bem_vindo">Bem Vindo à Tech Cell!</p>
-          |
-          <p class="qualidade">Qualidade que conecta, confiança que fica.</p>
-        </div>
-        <div class="atendimento">
-          <p class="atend">Atendimento</p>
-          <img
-            class="whats_logo"
-            src="img/vecteezy_whatsapp-logo-png-whatsapp-icon-png-whatsapp-transparent_18930564.png"
-            alt="whats_logo"
-          />
-          <p class="telefone">67 99978-6870</p>
-        </div>
-        <div class="redes_sociais">
-          <p>Siga-nos</p>
-          <img
-            class="logo_insta"
-            src="img/vecteezy_instagram-logo-png-instagram-icon-transparent_18930415.png"
-            alt="logo_insta"
-          />
-          <img
-            class="logo_face"
-            src="img/vecteezy_facebook-png-icon_16716481.png"
-            alt="logo_face"
-          />
-        </div>
-      </div>
-      <div class="logo">
-        <img class="tech_logo" src="img/logo.png" alt="logo" width="200px" />
-        <div class="caixa_pesquisa">
-          <textarea
-            class="buscador"
-            style="resize: none"
-            name="busca"
-            id="caixa_busca"
-            placeholder="Faça sua busca aqui..."
-          ></textarea>
-          <button class="lupa">
-            <img src="img/lupa.png" alt="lupa" width="100%" height="100%" />
-          </button>
-        </div>
-        <div class="login">
-          <div>
+      <div class="fixed_box">
+        <div class="top">
+          <div class="apresentacao">
+            <p class="bem_vindo">Bem Vindo à Tech Cell!</p>
+            |
+            <p class="qualidade">Qualidade que conecta, confiança que fica.</p>
+          </div>
+          <div class="atendimento">
+            <p class="atend">Atendimento</p>
+            <div class="hover_whats">
+              <img
+                class="whats_logo"
+                src="img/vecteezy_whatsapp-logo-png-whatsapp-icon-png-whatsapp-transparent_18930564.png"
+                alt="whats_logo"
+              />
+              <p class="phone_number">(67) 9 9978-6870</p>
+            </div>
+            <div class="hover_email">
+              <img class="e-mail" src="img/email.png" alt="e-mail" />
+              <p class="email_adress">techcell.ms67@gmail.com</p>
+            </div>
+          </div>
+          <div class="redes_sociais">
+            <p>Siga-nos</p>
             <img
-              class="usuario-icone"
-              src="img/icone usuario.png"
-              alt="usuario-icone"
-              width="50px"
+              class="logo_insta"
+              src="img/vecteezy_instagram-logo-png-instagram-icon-transparent_18930415.png"
+              alt="logo_insta"
+            />
+            <img
+              class="logo_face"
+              src="img/vecteezy_facebook-png-icon_16716481.png"
+              alt="logo_face"
             />
           </div>
-          <div class="logins-menus">
-            <p class="minha_conta">Minha Conta</p>
-            <p class="login_p">Entrar/Cadastrar</p>
+        </div>
+        <div class="logo">
+          <img class="tech_logo" src="img/logo.png" alt="logo" width="200px" />
+          <div class="caixa_pesquisa">
+            <textarea
+              class="buscador"
+              style="resize: none"
+              name="busca"
+              id="caixa_busca"
+              placeholder="Faça sua busca aqui..."
+            ></textarea>
+            <button class="lupa">
+              <img src="img/lupa.png" alt="lupa" width="100%" height="100%" />
+            </button>
+          </div>
+          <div class="login">
+            <div>
+              <img
+                class="usuario-icone"
+                src="img/icone usuario.png"
+                alt="usuario-icone"
+                width="50px"
+              />
+            </div>
+            <div class="logins-menus">
+              <p class="minha_conta">Minha Conta</p>
+              <p class="login_p">Entrar/Cadastrar</p>
+            </div>
+          </div>
+          <div class="carrinho">
+            <img
+              class="car-icon"
+              src="img/car-icon.png"
+              alt="icone-carrinho"
+              width="40px"
+            />
+            <div class="quantidade">
+              <p>5</p>
+            </div>
           </div>
         </div>
-        <div class="carrinho">
-          <img
-            class="car-icon"
-            src="img/car-icon.png"
-            alt="icone-carrinho"
-            width="40px"
-          />
-          <div class="quantidade">
-            <p>5</p>
-          </div>
+        <div class="menu">
+          <button class="sub-menus">INÍCIO</button>
+          <button class="sub-menus">ACESSÓRIOS</button>
+          <button class="sub-menus">CABOS</button>
+          <button class="sub-menus">CARREGADORES</button>
+          <button class="sub-menus">CAPINHAS</button>
+          <button class="sub-menus">PELICULAS</button>
+          <button class="sub-menus">ASSISTÊNCIA TÉCNICA</button>
         </div>
-      </div>
-      <div class="menu">
-        <button class="sub-menus">INÍCIO</button>
-        <button class="sub-menus">ACESSÓRIOS</button>
-        <button class="sub-menus">CABOS</button>
-        <button class="sub-menus">CARREGADORES</button>
-        <button class="sub-menus">CAPINHAS</button>
-        <button class="sub-menus">PELICULAS</button>
-        <button class="sub-menus">ASSISTÊNCIA TÉCNICA</button>
       </div>
       <div class="conteudo">
         <div class="counteudo-1">
@@ -157,10 +165,11 @@
           <button class="see_all"><b>VER TODOS</b></button>
         </div>
         <div class="featured_items">
-          <div class="item-1"></div>
-          <div class="item-2"></div>
-          <div class="item-3"></div>
-          <div class="item-4"></div>
+          <div class="item-1">PRODUTO 1</div>
+          <div class="item-2">PRODUTO 2</div>
+          <div class="item-3">PRODUTO 3</div>
+          <div class="item-4">PRODUTO 4</div>
+          <div class="item-5">PRODUTO 5</div>
         </div>
       </div>
       <div class="right_img"></div>
