@@ -16,15 +16,19 @@
     width: 100%;
     border-bottom: 2px solid #1d1c1c;
     height: 50px;
-
 }
 
 .lupa {
     overflow: hidden;
     background-color: #E8C423;
-    width: 70px;
+    width: 40px;
     border: none;
     cursor: pointer;
+
+    :active {
+        transform: scale(0.9);
+        opacity: 0.8;
+    }
 }
 
 .atendimento {
@@ -107,7 +111,7 @@
     background-color: red;
     color: white;
     margin-top: -20px;
-    margin-left: -15px;
+    margin-left: -20px;
     font-size: 10px;
 }
 
@@ -116,7 +120,7 @@
     align-items: center;
 }
 
-.login_p{
+.login_p {
     cursor: pointer;
 }
 
@@ -135,8 +139,8 @@
 }
 
 ::placeholder {
-        opacity: 0.3;
-    }
+    opacity: 0.3;
+}
 
 .usuario-icone {
     margin-top: 1px;
@@ -313,4 +317,21 @@ h1 {
     border: #F8BB1D solid 1px;
     border-radius: 10px;
     margin-right: 10px;
+}
+
+.whats_logo:active,
+.logo_insta:active,
+.logo_face:active,
+.minha_conta:active,
+.login_p:active,
+.car-icon:active,
+.orcamento:active,
+.servicos:active {
+    transform: scale(0.99);
+    opacity: 0.8;
+}
+
+.sub-menus:active {
+    transform: scale(0.99);
+    opacity: 0.5;
 }
