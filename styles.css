@@ -11,8 +11,11 @@
 
 .fixed_box {
     background-color: black;
-    position: sticky;
-    top: 0;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
 }
 
 .top {
