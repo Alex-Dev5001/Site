@@ -15,7 +15,6 @@
     top: 50px;
     left: 0;
     width: 100%;
-    z-index: 9999;
 }
 
 .top {
@@ -36,7 +35,7 @@
 }
 
 .email {
-    margin-right: 12vw;
+    margin-right: 6vw;
     display: flex;
     align-items: center;
     gap: 1vw;
@@ -207,6 +206,7 @@
     height: 73%;
     display: flex;
     border-bottom: 2px solid #1d1c1c;
+    margin-top: 115px;
 }
 
 .counteudo-1 {
@@ -372,7 +372,7 @@ h1 {
     display: flex;
     width: 100%;
     height: 250px;
-    padding: 10px 10px;
+    padding: 10px 40px;
     gap: 1%;
     background-color: #141414;
     justify-content: center;
@@ -388,7 +388,7 @@ h1 {
     justify-content: center;
     align-items: center;
     display: flex;
-    gap: 33vw;
+    gap: 50%;
 }
 
 .see_all {
@@ -403,24 +403,24 @@ h1 {
 
 .left_img {
     background-color: #ffffff;
-    width: 20vw;
-    height: 221px;
+    width: 20%;
+    height: 100%;
     border-radius: 10px;
     overflow: hidden;
 }
 
 .right_img {
     background-color: #ffffff;
-    width: 20vw;
+    width: 20%;
     border-radius: 10px;
-    height: 221px;
+    height: 100%;
     overflow: hidden;
 }
 
 .center_menu {
     display: flex;
     flex-direction: column;
-    width: 52vw;
+    width: 60%;
 }
 
 .featured_items {
@@ -455,23 +455,23 @@ h1 {
 }
 
 .rodape {
+    padding: 10px 40px;
     background-color: #141414;
     width: 100%;
     height: 300px;
 }
 
 .institutional {
-    padding: 10px 10px;
     background-color: #141414;
     display: flex;
     width: 100%;
     height: 250px;
-    gap: 3vw;
+    gap: 5vw;
     justify-content: center;
 }
 
 .rights_reserved {
-    color:#ffffff;
+    color: #ffffff;
     background-color: #141414;
     display: flex;
     width: 100%;
@@ -496,4 +496,116 @@ h1 {
     background-color: #f88585;
     width: 30%;
     height: 100%;
+}
+
+
+
+
+
+@media screen and (max-width: 980px) {
+    .main {
+        background-color: #e00404;
+    }
+
+    .email_adress {
+        display: none;
+    }
+
+    .email {
+        margin-right: 5vw;
+        margin-left: 15vw;
+    }
+
+    .login {
+        width: 180px;
+    }
+
+    .caixa_pesquisa {
+        margin-right: 0vw;
+    }
+
+    .tech_logo {
+        margin-right: 0vw;
+    }
+
+    .buscador {
+        width: 30vw;
+    }
+
+    .logins-menus {
+        letter-spacing: 1px;
+        line-height: 20px;
+        margin-top: -5px;
+        margin-right: 0px;
+    }
+
+    .carrinho {
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+        width: 5vw;
+    }
+
+    .logo {
+        justify-content: center;
+        gap: 5vw;
+        padding-right: 2vw;
+    }
+
+.menu {
+    gap: 20px;
+}
+
+.carousel {
+    height: 210px;
+}
+
+}
+
+
+/*
+@media screen and (max-width: 980px) {
+    .main {
+        background-color: #e00404;
+    }
+
+    .email_adress {
+        display: none;
+    }
+
+    .email {
+        margin-right: 5vw;
+        margin-left: 15vw;
+    }
+
+    .login {
+        width: 180px;
+    }
+
+    .caixa_pesquisa {
+        margin-right: 0vw;
+    }
+
+    .tech_logo {
+        margin-right: 0vw;
+    }
+
+    .buscador {
+        width: 30vw;
+    }
+
+.logins-menus {
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin-top: -5px;
+    margin-right: 0px;
+}
+
+.carrinho {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    width: 5vw;
+}
+
 }
