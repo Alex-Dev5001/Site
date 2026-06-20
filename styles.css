@@ -10,6 +10,8 @@
 }
 
 .fixed_box {
+    align-items: center;
+    justify-items: center;
     background-color: black;
     position: fixed;
     top: 50px;
@@ -19,26 +21,41 @@
 
 .top {
     display: flex;
-    padding-left: 25px;
+    padding: 0 3% 0 3%;
     color: white;
     width: 100%;
     border-bottom: 2px solid #1d1c1c;
     height: 50px;
+    justify-content: center;
+}
+
+.part_1 {
+    display: flex;
+    width:58%;
+}
+
+.part_2 {
+    display: flex;
+    width:25%;
+}
+
+.part_3 {
+    display: flex;
+    width:17%;
+
 }
 
 .lupa {
     overflow: hidden;
     background-color: #E8C423;
-    width: 40px;
     border: none;
     cursor: pointer;
 }
 
 .email {
-    margin-right: 6vw;
-    display: flex;
     align-items: center;
-    gap: 1vw;
+    display: flex;
+    width: 100%;
 }
 
 .whats_logo {
@@ -52,32 +69,30 @@
 }
 
 .apresentacao {
-    display: flex;
     align-items: center;
-    width: 55vw;
+    display: flex;
+    width: 100%
 }
 
 .bem_vindo {
-    color: #E8C423;
-    margin-right: 5px;
-    align-items: center;
-    margin-left: 25px;
+margin-right: 5px;
 }
 
 .qualidade {
-    margin-left: 5px;
-    align-items: center;
+margin-left: 5px;
 }
 
 .e-mail_img {
     width: 35px;
+    height: 25px;
     cursor: pointer;
 }
 
 .redes_sociais {
+    width: 100%;
     display: flex;
     align-items: center;
-    margin-right: 5px;
+    justify-content: end;
 }
 
 .logo_insta {
@@ -91,26 +106,36 @@
 }
 
 .logo {
-    display: flex;
-    width: 100%;
-    height: 70px;
+  display: flex;
+    padding: 0 3% 0 3%;
     color: white;
-    align-items: center;
+    width: 100%;
     border-bottom: 2px solid #1d1c1c;
+    height: 50px;
+    justify-content: center;
+}
+
+.part_logo {
+    width: 15%;
 }
 
 .tech_logo {
-    margin: -35px 200px auto 0px;
+}
+
+.part_pesquisa {
+    display: flex;
+    width: 55%;
+    align-items: center;
+    justify-content: end;
 }
 
 .caixa_pesquisa {
+    width: 80%;
     display: flex;
-    box-shadow: 0px 0px 8px 0px #eec200;
     height: 40px;
+    overflow: hidden;border: none;
     border-radius: 5px;
-    overflow: hidden;
-    margin-right: 140px;
-    border: none;
+    box-shadow: 0px 0px 8px 0px #eec200;
 }
 
 .quantidade {
@@ -129,6 +154,10 @@
     font-size: 10px;
 }
 
+.part_login {
+    width: 25%;
+}
+
 .login {
     display: flex;
     align-items: center;
@@ -143,13 +172,13 @@
 }
 
 .buscador {
-    width: 450px;
+    width: 100%;
     height: 40px;
     outline: none;
     font-size: 25px;
     text-align: center;
-    border: none;
     place-content: center;
+    border: none;
 }
 
 ::placeholder {
@@ -161,17 +190,16 @@
 }
 
 .logins-menus {
-    letter-spacing: 1px;
     line-height: 20px;
-    margin-top: -5px;
-    margin-right: 40px;
+}
+
+.part_carrinho {
+    width: 5%;
 }
 
 .carrinho {
     display: flex;
     align-items: center;
-    margin-bottom: 5px;
-    width: 100px;
 }
 
 .car-icon {
@@ -499,13 +527,10 @@ h1 {
 }
 
 
-
+/*
 
 
 @media screen and (max-width: 980px) {
-    .main {
-        background-color: #e00404;
-    }
 
     .email_adress {
         display: none;
@@ -552,60 +577,27 @@ h1 {
         padding-right: 2vw;
     }
 
-.menu {
-    gap: 20px;
+    .menu {
+        gap: 20px;
+    }
+
+    .carousel {
+        height: 210px;
+    }
+
 }
 
-.carousel {
-    height: 210px;
-}
 
-}
-
-
-/*
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 860px) {
     .main {
-        background-color: #e00404;
+        background-color: #ff0000;
     }
 
-    .email_adress {
-        display: none;
+    .menu {
+        gap: 5px;
     }
-
-    .email {
-        margin-right: 5vw;
-        margin-left: 15vw;
-    }
-
-    .login {
-        width: 180px;
-    }
-
-    .caixa_pesquisa {
-        margin-right: 0vw;
-    }
-
-    .tech_logo {
-        margin-right: 0vw;
-    }
-
-    .buscador {
-        width: 30vw;
-    }
-
-.logins-menus {
-    letter-spacing: 1px;
-    line-height: 20px;
-    margin-top: -5px;
-    margin-right: 0px;
-}
-
-.carrinho {
-    display: flex;
-    align-items: center;
-    margin-bottom: 5px;
-    width: 5vw;
+.email {
+    margin-left: 10vw;
 }
 
 }
