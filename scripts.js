@@ -1,4 +1,4 @@
-console.log("Olá mundo!");
+console.log ("Olá mundo!");
 
 const fixed_box = document.querySelector(".fixed_box");
 
@@ -37,3 +37,4 @@ email_img.addEventListener("click", () => {
 if (window.innerWidth <= 720) {
 document.querySelector('.sub-menu_only').innerHTML = 'ASSISTÊNCIA';
 }
+
