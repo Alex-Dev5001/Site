@@ -6,7 +6,7 @@ window.addEventListener("scroll", () => {
   if (window.scrollY > 0) {
     fixed_box.style.top = "0";
   } else {
-    fixed_box.style.top = "50px";
+    fixed_box.style.top = "7%";
   }
 });
 
