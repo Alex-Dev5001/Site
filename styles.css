@@ -792,4 +792,12 @@ h1 {
 
 }
 
+.carousel {
+    height: 20%;
+}
+
+.rodape {
+    height: 35%;
+}
+
 }
