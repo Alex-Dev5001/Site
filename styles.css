@@ -20,6 +20,14 @@
     height: 100px;
 }
 
+.box_botton_fixed {
+    align-items: center;
+    justify-items: center;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+
 .top {
     display: flex;
     padding: 0 3% 0 3%;
@@ -260,6 +268,7 @@
     width: 100%;
     background-image: url(img/capa.png);
     background-size: 100% 100%;
+    background-position: bottom;
     height: 93%;
     display: flex;
     flex-direction: column;
@@ -306,7 +315,7 @@ h1 {
     width: 20%;
     height: 31px;
     margin-right: 20px;
-    background-color: #F8BB1D;
+    background-color: #f8ba1d;
     border: none;
     box-shadow: 0px 0px 5px 0px #000000;
     border-radius: 5px;
@@ -316,7 +325,7 @@ h1 {
 .servicos {
     width: 20%;
     height: 31px;
-    background-color: #000000;
+    background-color: #00000075;
     color: white;
     border-color: #ffffff;
     border-width: 1px;
@@ -687,23 +696,21 @@ h1 {
     .part_3 {
         width: 80%;
     }
-
 }
 
 
 @media screen and (max-width: 720px) {
 
-    .main {
-        background-color: #075507;
-    }
-
     .top {
         justify-content: center;
         flex-direction: column;
         width: 100%;
-        height: 80px;
+        height: 60px;
     }
 
+    .selos {
+        margin-top: 10px;
+    }
 
     .fixed_box {
         position: fixed;
@@ -781,8 +788,26 @@ h1 {
 
     .conteudo {
         height: 50%;
-        background-size: 100% 68%;
+        background-size: 100% 100%;
         background-position: bottom;
+        padding: 3%;
+    }
+
+    .email {
+        justify-content: normal;
+    }
+
+    h1 {
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
+
+    .titulo-2 {
+        margin-bottom: 5px;
+    }
+
+    .rodape {
+        padding: 3%;
     }
 
 }
@@ -847,7 +872,6 @@ h1 {
         height: 60%;
         font-size: 40px;
         margin-bottom: 0px;
-
     }
 
     .carousel {
@@ -861,5 +885,38 @@ h1 {
     .final_logo_text {
         line-height: 15px;
     }
+}
 
+
+
+@media screen and (max-width: 450px) and (max-height: 1000px) {
+
+    .main {
+        background-color: green;
+    }
+
+    .top {
+        display: block;
+        height: 30%;
+    }
+
+    .part_1 {
+        display: block;
+    }
+
+    .apresentacao {
+        display: block;
+    }
+
+    .barra {
+        display: none;
+    }
+
+    .media_720px {
+        display: block;
+    }
+
+    .part_2 {
+        display: hidden;
+    }
 }

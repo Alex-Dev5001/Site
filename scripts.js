@@ -10,8 +10,22 @@ window.addEventListener("scroll", () => {
       fixed_box.style.top = "7%";
     } 
     else {
-      fixed_box.style.top = "80px";
+      if (window.innerHeight > 900) {
+        fixed_box.style.top = "80px";
+      } else {
+        fixed_box.style.top = "60px";
+      }
     }
+  }
+});
+
+let final_logo = document.querySelector(".final_logo");
+
+window.addEventListener("resize", () => {
+  if (window.innerWidth < 1100) {
+    final_logo.style.overflow = "auto";
+  } else {
+    final_logo.style.overflow = "hidden";
   }
 });
 
@@ -41,3 +55,4 @@ email_img.addEventListener("click", () => {
 if (window.innerWidth <= 720) {
   document.querySelector(".sub-menu_only").innerHTML = "ASSISTÊNCIA";
 }
+
