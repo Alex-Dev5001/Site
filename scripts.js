@@ -1,4 +1,4 @@
-console.log ("Olá mundo!");
+console.log("Olá mundo!");
 
 const fixed_box = document.querySelector(".fixed_box");
 
@@ -6,7 +6,12 @@ window.addEventListener("scroll", () => {
   if (window.scrollY > 0) {
     fixed_box.style.top = "0";
   } else {
-    fixed_box.style.top = "7%";
+    if (window.innerWidth > 720) {
+      fixed_box.style.top = "7%";
+    } 
+    else {
+      fixed_box.style.top = "80px";
+    }
   }
 });
 
@@ -33,8 +38,6 @@ email_img.addEventListener("click", () => {
   );
 });
 
-
 if (window.innerWidth <= 720) {
-document.querySelector('.sub-menu_only').innerHTML = 'ASSISTÊNCIA';
+  document.querySelector(".sub-menu_only").innerHTML = "ASSISTÊNCIA";
 }
-
