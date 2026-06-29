@@ -294,8 +294,21 @@ h1 {
     letter-spacing: 3px;
 }
 
-.o_melhor {
+span {
     color: #F8BB1D;
+}
+
+.saiba_mais {
+    width: 15%;
+    height: 31px;
+    background-color: #f8ba1d;
+    border: none;
+    box-shadow: 0px 0px 5px 0px #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2%;
+    font-weight: 700;
+    margin-bottom: 5%;
 }
 
 .titulo_1 {
@@ -326,6 +339,8 @@ h1 {
     box-shadow: 0px 0px 5px 0px #000000;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 2%;
+    font-weight: 700;
 }
 
 .servicos {
@@ -338,6 +353,8 @@ h1 {
     box-shadow: 0px 0px 5px 0px #000000;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 2%;
+    font-weight: 700;
 }
 
 .prod_qualidade {
@@ -443,7 +460,7 @@ h1 {
 .carousel {
     display: flex;
     width: 100%;
-    height: 250px;
+    height: 85%;
     padding: 2% 3%;
     gap: 1%;
     background-color: #141414;
@@ -463,7 +480,7 @@ h1 {
 
 .highlights_menu {
     width: 100%;
-    height: 20%;
+    height: 10%;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -511,7 +528,7 @@ h1 {
 
 .featured_items {
     display: flex;
-    height: 80%;
+    height: 90%;
     justify-content: center;
     padding: 10px;
     gap: 2%;
@@ -537,6 +554,35 @@ h1 {
 .acessories {
     width: 100%;
     height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+    background-image: url(img/assistencia.png);
+    background-size: 100% 100%;
+    justify-content: center;
+    border-bottom: 2px solid #1d1c1c;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.h1_container {
+    width: 80%;
+    color: white;
+    font-family: 'Bebas Neue';
+    font-size: 70px;
+    font-style: italic;
+    line-height: 90%;
+    margin-bottom: 2%;
+    letter-spacing: 3px;
+}
+
+.rodape_cont {
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
 }
 
 .rodape {
@@ -676,10 +722,6 @@ h1 {
         font-size: 12px;
     }
 
-    .carousel {
-        height: 200px;
-    }
-
     .part_1 {
         display: flex;
         width: 70%;
@@ -811,6 +853,27 @@ h1 {
     .titulo-2 {
         margin-bottom: 5px;
     }
+
+    .carousel {
+        height: 50%
+    }
+
+.container {
+    height: 50%;
+}
+
+.h1_container {
+    font-size: 40px;
+}
+
+.saiba_mais {
+    width: 12%;
+    font-size: 10px;
+}
+
+.rodape_cont {
+    font-size: 15px;
+}
 
     .rodape {
         padding: 3%;
