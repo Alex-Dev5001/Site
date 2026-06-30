@@ -858,22 +858,22 @@ span {
         height: 50%
     }
 
-.container {
-    height: 50%;
-}
+    .container {
+        height: 50%;
+    }
 
-.h1_container {
-    font-size: 40px;
-}
+    .h1_container {
+        font-size: 40px;
+    }
 
-.saiba_mais {
-    width: 12%;
-    font-size: 10px;
-}
+    .saiba_mais {
+        width: 12%;
+        font-size: 10px;
+    }
 
-.rodape_cont {
-    font-size: 15px;
-}
+    .rodape_cont {
+        font-size: 15px;
+    }
 
     .rodape {
         padding: 3%;
@@ -1173,21 +1173,20 @@ span {
     }
 
     .conteudo {
-        background-image: unset;
+        background-image: url(img/fundo_mobile.png);
         background-color: #000000;
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 90%;
+        height: 68%;
         padding: 0;
     }
 
     .titulo-1 {
         padding: 3%;
-        background-image: url(img/capa.png);
         background-size: 100% 100%;
         width: 100%;
-        height: 80%;
+        height: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1195,11 +1194,17 @@ span {
 
     h1 {
         text-align: center;
+        margin-top: 10%;
+    }
+
+    .h1_container {
+        text-align: center;
+        margin-top: 10%;
     }
 
     .titulo-2 {
         width: 80%;
-        height: 60%;
+        height: 20%;
         text-align: center;
     }
 
@@ -1223,48 +1228,71 @@ span {
         display: block;
     }
 
-    .quality_img {
-        display: block;
+    .selos {
+        display: none;
     }
 
-    .garantia {
-        display: block;
-    }
-
-    .garantia_img {
-        display: block;
-    }
-
-    .entrega {
-        display: block;
-    }
-
-    .entrega_img {
-        display: block;
+    .left_img,
+    .right_img {
+        display: none;
     }
 
     .carousel {
         display: block;
+        height: 80%;
     }
 
     .center_menu {
         display: block;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
     }
 
     .highlights_menu {
-        display: block;
+        display: flex;
+        width: 100%;
+        height: 5%;
     }
 
     .emphasis {
-        display: block;
+        display: flex;
+        align-items: center;
     }
 
     .box_see_all {
-        display: block;
+        display: flex;
+        align-items: center;
+        width: 100%;
     }
 
     .featured_items {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 2%;
+        height: 95%;
+    }
+
+    .item-1,
+    .item-2,
+    .item-3,
+    .item-4 {
+        width: 100%;
+        height: 25%;
+    }
+
+    .container {
+        align-items: center;
+    }
+
+    .saiba_mais {
+        width: 25%;
+    }
+
+    .rodape_cont {
+        width: 85%;
     }
 
     .institutional {
