@@ -735,7 +735,7 @@ span {
     }
 
     .fixed_box {
-        top: 7%;
+        top: 4%;
     }
 
     .media_720px {
@@ -913,7 +913,7 @@ span {
     .conteudo {
         padding-top: 1%;
         padding-bottom: 1%;
-        margin-top: 25%;
+        margin-top: 0px;
         height: 25%;
     }
 
@@ -1147,13 +1147,13 @@ span {
 
     .menu {
         flex-direction: column;
-        width: 16%;
+        width: 10%;
         height: 7%;
         position: absolute;
         top: 7%;
         left: 3%;
         background-image: url(img/sandwich.png);
-        background-size: 60px 60px;
+        background-size: 100% 100%;
         border: none;
     }
 

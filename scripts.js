@@ -7,7 +7,7 @@ window.addEventListener("scroll", () => {
     fixed_box.style.top = "0";
   } else {
     if (window.innerWidth > 720) {
-      fixed_box.style.top = "7%";
+      fixed_box.style.top = "4%";
     } 
     else {
       if (window.innerHeight > 900) {
