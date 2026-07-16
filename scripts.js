@@ -1,5 +1,3 @@
-console.log("Hello, World!");
-
 const fixedBox = document.querySelector(".fixed_box");
 
 window.addEventListener("scroll", () => {
@@ -10,3 +8,12 @@ window.addEventListener("scroll", () => {
         fixedBox.style.top = "auto";
     }
 });
+
+window.addEventListener("resize", () => {
+    if (window.innerWidth < 830) {
+        document.querySelector(".assistance").textContent = "ASSISTÊNCIA";
+        document.querySelector(".welcome").textContent = "Bem Vindo à Tech Cell!";
+        document.querySelector(".welcome").style.color = "#EEB518";
+    }
+});
+

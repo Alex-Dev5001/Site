@@ -211,6 +211,8 @@ body {
     border: none;
     border-radius: 10px;
     padding: 0 2%;
+    border-left: 2px solid #6262621a;
+    border-right: 2px solid #6262621a;
     cursor: pointer;
 }
 
@@ -222,6 +224,22 @@ body {
 .email {
     cursor: pointer;
 }
+
+.inst_but_home:hover,
+.inst_but_who:hover,
+.inst_but_guarantee:hover,
+.inst_but_blog:hover,
+.works_screen_replacement:hover,
+.works_battery:hover,
+.works_software:hover,
+.works_board:hover,
+.works_cleaning:hover,
+.contacts_address:hover,
+.contacts_email:hover,
+.contacts_phone:hover,
+.contacts_instagram:hover,
+.contacts_facebook:hover,
+.contacts_hours:hover,
 .learn_more:hover,
 .product_1:hover,
 .product_2:hover,
@@ -250,6 +268,22 @@ body {
 .assistance:hover {
     transform: scale(1.1);
 }
+
+.inst_but_home:active,
+.inst_but_who:active,
+.inst_but_guarantee:active,
+.inst_but_blog:active,
+.works_screen_replacement:active,
+.works_battery:active,
+.works_software:active,
+.works_board:active,
+.works_cleaning:active,
+.contacts_address:active,
+.contacts_email:active,
+.contacts_phone:active,
+.contacts_instagram:active,
+.contacts_facebook:active,
+.contacts_hours:active,
 .learn_more:active,
 .product_1:active,
 .product_2:active,
@@ -277,16 +311,6 @@ body {
 .film:active,
 .assistance:active {
     transform: scale(1);
-}
-
-.home,
-.cable,
-.charger,
-.case,
-.film,
-.assistance {
-    border-left: 2px solid #626262;
-    border-right: 2px solid #626262;
 }
 
 .page_1 {
@@ -485,12 +509,12 @@ body {
 .quality_products,
 .satisfaction_guarantee,
 .fast_delivery {
-height: 100%;
-display: flex;
-align-items: center;
-width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 25%;
 }
- 
+
 .quality_img,
 .satisfaction_img,
 .delivery_img {
@@ -514,32 +538,134 @@ width: 25%;
     margin-left: 5%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .page_4 {
-    padding: 0 3%;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.top_page_4 {
+    display: flex;
+    padding: 1% 3%;
     width: 100%;
     height: 80vh;
-    background-color: #25b825;
+    background-color: #121212;
     border-radius: 10px;
     border-bottom: 2px solid #626262;
+    justify-content: space-between;
+}
+
+.institutional_title,
+.works_title,
+.contacts_title {
+    height: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: #2d2d2d;
+    border-radius: 110px;
+}
+
+.institutional {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 90%;
+    justify-content: space-between;
+}
+
+.works {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 90%;
+    justify-content: space-between;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 90%;
+    justify-content: space-between;
+}
+
+.inst_but_home,
+.inst_but_who,
+.inst_but_guarantee,
+.inst_but_blog,
+.works_screen_replacement,
+.works_battery,
+.works_software,
+.works_board,
+.works_cleaning,
+.contacts_address,
+.contacts_email,
+.contacts_phone,
+.contacts_instagram,
+.contacts_facebook,
+.contacts_hours {
+    color: #EEB518;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    width: 100%;
+    font-size: 15px;
+    background: #00000000;
+    border: none;
+    border-radius: 10px;
+    border-left: 2px solid #6262621a;
+    border-right: 2px solid #6262621a;
+    border-bottom: 2px solid #6262621a;
+    cursor: pointer;
+}
+
+.rodape {
+    background-color: #121212;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 830px) {
+
+    .follow,
+    .email_adress {
+        display: none;
+    }
+
+    .highlights_title,
+    .highlights_button {
+        font-size: 20px;
+    }
+
+    .product_1,
+    .product_2,
+    .product_3,
+    .product_4,
+    .product_5,
+    .product_6,
+    .product_7,
+    .product_8,
+    .product_9,
+    .product_10 {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+
+    .highlights_title,
+    .highlights_button {
+        font-size: 12px;
+    }
 }
