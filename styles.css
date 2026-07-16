@@ -710,12 +710,12 @@ body {
         justify-content: space-between;
     }
 
-.cable,
-.charger,
-.case,
-.film {
-    font-size: 15px;
-}
+    .cable,
+    .charger,
+    .case,
+    .film {
+        font-size: 15px;
+    }
 
     .search_box {
         width: 45%
@@ -776,17 +776,58 @@ body {
         font-size: 12px;
     }
 
+    .specialized_assistance {
+        height: 40%;
+        font-size: 25px;
+        line-height: 25px;
+    }
 
+    .specialized {
+        font-size: 25px;
+    }
 
+    .description_page_3 {
+        height: 30%;
+        font-size: 14px;
+        line-height: 12px;
+    }
 
+    .good_hands {
+        font-size: 20px;
+    }
 
+    .learn_more {
+        box-shadow: #EEB515 0 0 5px 1px;
+        height: 8%;
+        width: 18%;
+        font-size: 12px;
+    }
 
+    .quality_products,
+    .satisfaction_guarantee,
+    .fast_delivery {
+        display: flex;
+        align-items: center;
+        width: 35%;
+        font-size: 10px;
+    }
 
+    .quality_title,
+    .satisfaction_title,
+    .delivery_title {
+        font-size: 10px;
+    }
 
+    .quality_img,
+    .satisfaction_img,
+    .delivery_img {
+        height: 65%;
+        width: 30%;
+    }
 
-
-
-
+    .stamps_img {
+        width: 90%;
+    }
 
 
 
