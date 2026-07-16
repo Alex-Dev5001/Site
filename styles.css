@@ -748,10 +748,6 @@ body {
         width: 30%;
     }
 
-    .page_1 {
-        height: 21vh;
-    }
-
     .connect {
         height: 50%;
         font-size: 25px;
@@ -787,7 +783,7 @@ body {
     }
 
     .description_page_3 {
-        height: 30%;
+        height: 25%;
         font-size: 14px;
         line-height: 12px;
     }
@@ -798,7 +794,7 @@ body {
 
     .learn_more {
         box-shadow: #EEB515 0 0 5px 1px;
-        height: 8%;
+        height: 10%;
         width: 18%;
         font-size: 12px;
     }
@@ -808,14 +804,14 @@ body {
     .fast_delivery {
         display: flex;
         align-items: center;
-        width: 35%;
+        width: 30%;
         font-size: 10px;
     }
 
     .quality_title,
     .satisfaction_title,
     .delivery_title {
-        font-size: 10px;
+        font-size: 14px;
     }
 
     .quality_img,
@@ -825,26 +821,52 @@ body {
         width: 30%;
     }
 
+.stamps {
+    justify-content: space-between;
+}
+
     .stamps_img {
         width: 90%;
     }
 
+    .institutional_title,
+    .works_title,
+    .contacts_title {
+        font-size: 15px;
+        font-weight: normal;
+    }
 
+    .institutional_title,
+    .works_title,
+    .contacts_title {
+        height: 20%;
+    }
 
+    .inst_but_home,
+    .inst_but_who,
+    .inst_but_guarantee,
+    .inst_but_blog,
+    .works_screen_replacement,
+    .works_battery,
+    .works_software,
+    .works_board,
+    .works_cleaning,
+    .contacts_address,
+    .contacts_email,
+    .contacts_phone,
+    .contacts_instagram,
+    .contacts_facebook,
+    .contacts_hours {
+        font-size: 10px;
+    }
 
+    .rodape {
+        font-size: 10px;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
+    .page_1 {
+        height: 21vh;
+    }
 
     .page_2 {
         height: 21vh;
