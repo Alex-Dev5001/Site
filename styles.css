@@ -669,3 +669,182 @@ body {
         font-size: 12px;
     }
 }
+
+@media screen and (max-width: 412px) and (max-height: 914px) {
+
+    .main {
+        background-color: #121212;
+    }
+
+    .e-mail,
+    .social_media,
+    .logo_tech,
+    .user_box,
+    .home,
+    .assistance {
+        display: none;
+    }
+
+    .welcome {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .top {
+        height: 5vh;
+    }
+
+    .fixed_box {
+        height: 10vh;
+    }
+
+    .fixed_top {
+        height: 70%;
+        justify-content: space-between;
+    }
+
+    .fixed_bottom {
+        height: 30%;
+        justify-content: space-between;
+    }
+
+.cable,
+.charger,
+.case,
+.film {
+    font-size: 15px;
+}
+
+    .search_box {
+        width: 45%
+    }
+
+    .text_area {
+        width: 100%;
+        height: 80%;
+    }
+
+    .user_area {
+        width: 30%;
+    }
+
+    .cart {
+        width: 15%;
+    }
+
+    .search_text {
+        width: 80%;
+    }
+
+    .magnifying_glass_box {
+        width: 20%;
+    }
+
+    .amount {
+        bottom: 15px;
+        right: 10px;
+        width: 30%;
+    }
+
+    .page_1 {
+        height: 21vh;
+    }
+
+    .connect {
+        height: 50%;
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .description {
+        height: 30%;
+        font-size: 14px;
+        line-height: 12px;
+    }
+
+    .the_best {
+        font-size: 25px;
+    }
+
+    .services,
+    .budget {
+        width: 20%;
+        height: 40%;
+        box-shadow: #EEB518 0px 0px 5px 1px;
+        font-size: 12px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .page_2 {
+        height: 21vh;
+    }
+
+    .page_3 {
+        height: 21.5vh;
+    }
+
+    .page_4 {
+        height: 21.5vh;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
